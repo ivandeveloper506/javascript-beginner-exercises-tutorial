@@ -2,9 +2,9 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+    // La función [Math.random()] solo devuelve números enteros entre 1 y 0
+	var randomNumber = Math.floor(Math.random() * 10);
 	return randomNumber;
 }
-
 
 console.log(getRandomInt());

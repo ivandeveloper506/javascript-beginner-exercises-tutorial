@@ -1,3 +1,4 @@
+
 const a = '</title>';
 const b = '</html>';
 const c = '<head>';
@@ -8,6 +9,7 @@ const g = '<title>';
 const h = '<body>';
 
 //Modify this variable
-let htmlDocument = '';
+let htmlDocument = e + c + g + a + f + h + d + b;
 
+console.log('Soy un HTML Básico\n');
 console.log(htmlDocument);
